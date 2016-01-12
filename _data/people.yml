@@ -11,12 +11,12 @@
   - name: Joseph Gonzalez
     url: http://www.cs.berkeley.edu/~jegonzal/
     dblp: joseph_e_gonzalez
+  - name: Ali Ghodsi
+    url: http://www.cs.berkeley.edu/~alig/
 - description: collaborators and postdocs
   people:
   - name: Rachit Agarwal
     url: http://www.cs.berkeley.edu/~rachit/
-  - name: Ali Ghodsi
-    url: http://www.cs.berkeley.edu/~alig/
   - name: Christos Kozanitis
     url: http://cseweb.ucsd.edu/~ckozanit/
   - name: Jiannan Wang
@@ -62,7 +62,6 @@
     url: http://www.cs.berkeley.edu/~sameerag/
   - name: Peter Bailis
     url: http://www.bailis.org/
-    dblp: peter_bailis
   - name: Daniel Bruckner
     url: https://www.linkedin.com/in/daniel-bruckner-35582a2a
   - name: Neil Conway
