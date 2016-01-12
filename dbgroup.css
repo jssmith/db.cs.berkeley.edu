@@ -50,6 +50,13 @@ img.grouplogo {
     width: 500px;
 }
 
+#copyright {
+    text-align: center;
+    color: #808080;
+    padding-top: 10px;
+    font-size: 10pt;
+}
+
 .center
 {
 margin-top: 1em;
