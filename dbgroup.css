@@ -1,0 +1,83 @@
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    margin-bottom: .5em;
+}
+
+#headerbox {
+    display: block;
+    overflow: auto;
+    margin-bottom: 5px;
+}
+
+#head {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    float: left;
+}
+
+.boldtext {
+    font-weight: 500 !important;
+}
+
+img.grouplogo {
+    width: 200px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+#bio {
+    background: #EEE;
+    margin-left: -10px;
+    padding: 10px;
+}
+
+#logobox {
+    display: block;
+    margin-top: 1em !important;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    width: 500px;
+}
+
+.center
+{
+margin-top: 1em;
+margin-left:auto;
+margin-right:auto;
+width: 70%;
+max-width: 700px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.triplelist {
+    margin-left: -19px;
+    columns: 3;
+    -webkit-columns: 3;
+    -moz-columns: 3;
+    list-style-position: inside;
+    align:left;
+}
+
+img#berkeleylogo {
+    float: right;
+    height: 48px;
+    margin-right: 5px;
+}
+
+a:link, a:visited {color: #222; text-decoration: none; }
+a:active, a:hover {color: #444; text-decoration: none; }

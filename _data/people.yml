@@ -1,0 +1,81 @@
+- description: faculty
+  people:
+  - name: Mike Franklin
+    url: http://www.cs.berkeley.edu/~franklin/
+    dblp: michael_j_franklin
+  - name: Joe Hellerstein
+    url: http://db.cs.berkeley.edu/jmh/
+    dblp: joseph_m_hellerstein
+  - name: Ion Stoica
+    url: http://www.cs.berkeley.edu/~istoica/
+  - name: Joseph Gonzalez
+    url: http://www.cs.berkeley.edu/~jegonzal/
+    dblp: joseph_e_gonzalez
+- description: collaborators and postdocs
+  people:
+  - name: Rachit Agarwal
+    url: http://www.cs.berkeley.edu/~rachit/
+  - name: Ali Ghodsi
+    url: http://www.cs.berkeley.edu/~alig/
+  - name: Christos Kozanitis
+    url: http://cseweb.ucsd.edu/~ckozanit/
+  - name: Jiannan Wang
+    url: http://www.cs.berkeley.edu/~jnwang/
+  - name: Zhao Zhang
+    url: http://www.eecs.berkeley.edu/~zhaozhang/
+    dblp: _ # returns too many unrelated results
+  - name: Eugene Wu
+    url: http://www.cs.columbia.edu/~ewu/
+    dblp: _
+- description: graduate students
+  people:
+  - name: Sara Alspaugh
+    url: http://www.eecs.berkeley.edu/~alspaugh/
+    dblp: sara_alspaugh
+  - name: Daniel Crankshaw
+    url: https://amplab.cs.berkeley.edu/author/crankshaw/
+  - name: Daniel Haas
+    url: https://amplab.cs.berkeley.edu/author/dhaas/
+  - name: Sanjay Krishnan
+    url: http://www.ocf.berkeley.edu/~sanjayk/
+  - name: Nick Lanham
+    url: https://github.com/nicklan
+  - name: Evan Sparks
+    url: http://etrain.github.io/about.html
+  - name: Liwen Sun
+    url: http://scholar.google.com/citations?user=Phf6aX0AAAAJ&hl=en
+  - name: Shivaram Venkataraman
+    url: http://shivaram.info/
+  - name: Johann Schleier-Smith
+    url: https://johann.schleier-smith.com/
+  - name: Chenggang Wu
+    url: https://cs.brown.edu/~cw75/
+    dblp: _
+  - name: Yifan Wu
+    url: http://yifanwu.net/
+    dblp: _
+- description: recent alumni
+  people:
+  - name: Peter Alvaro
+    url: http://people.ucsc.edu/~palvaro/
+  - name: Sameer Agarwal
+    url: http://www.cs.berkeley.edu/~sameerag/
+  - name: Peter Bailis
+    url: http://www.bailis.org/
+    dblp: peter_bailis
+  - name: Daniel Bruckner
+    url: https://www.linkedin.com/in/daniel-bruckner-35582a2a
+  - name: Neil Conway
+    url: http://www.neilconway.org/
+  - name: Tim Kraska
+    url: http://cs.brown.edu/~kraskat/
+  - name: Gene Pang
+    url: https://www.linkedin.com/in/genepang
+  - name: Josh Rosen
+    url: https://www.linkedin.com/in/jshrsn
+  - name: Ameet Talkwalkar
+    url: http://web.cs.ucla.edu/~ameet/
+  - name: Beth Trushkowsky
+    url: https://www.cs.hmc.edu/~beth//
+  - name: Reynold Xin
+    url: http://www.cs.berkeley.edu/~rxin/

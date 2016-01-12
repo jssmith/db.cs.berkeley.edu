@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<div class="center">
+
+<div id="headerbox">
+<div id="head">UC BERKELEY <span class="boldtext">DATABASE GROUP</span></div>
+<a href="http://www.cs.berkeley.edu/"><img id="berkeleylogo" src="logo/berkeley.png" alt="Berkeley Logo" /></a>
+</div>
+
+<div id="bio">Berkeley has helped lead database systems research for over a
+quarter century.  As data has become increasingly central to computing
+and society, our group's charter and collaborations have expanded.
+Our research covers new challenges in data management as well as
+data-centric approaches to diverse areas including distributed
+systems, programming languages, statistical computation, human
+computing and interaction, and technology for developing regions.</div>
+
+
+{% for group in site.data.people %}
+<h2>{{ group.description | upcase | replace:' AND ',' and ' }}</h2>
+<ul class="triplelist">
+{% assign sortedpeople = group.people | sort_names: 'name' %}
+{% for person in sortedpeople %}
+<li><a href="{{ person.url }}">{{ person.name }}</a></li>
+{% endfor %}
+</ul>
+{% endfor %}
+
+{% capture dblp_authors %}{% for group in site.data.people %}{% for person in group.people %}author:{% if person.dblp %}{{ person.dblp }}{% else %}{{ person.name | replace:' ','_' | replace:'-','_') | downcase }}{% endif %}|{% endfor %}{% endfor %}{% endcapture %}
+<h2 style="margin-top:0.5em; margin-bottom:.5em;"><a style="float: left;" href="http://dblp.org/search/index.php#query={{ dblp_authors }}">PUBLICATIONS <span class="boldtext">on
+      DBLP</span></a> <a style="float:right;" href="seminar"><span class="boldtext">RECENT</span> GROUP READINGS</a></h2><br>
+
+<div id="logobox">
+<a href="https://amplab.cs.berkeley.edu/"><img class="grouplogo" src="logo/amplab.png" alt="AMPLab"></a>
+<a href="http://bloom-lang.org/"><img class="grouplogo" src="logo/bloom.png" alt="Bloom" /></a>
+</div>
+
+</div>
