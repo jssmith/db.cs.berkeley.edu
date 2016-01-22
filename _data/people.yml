@@ -17,10 +17,6 @@
   people:
   - name: Rachit Agarwal
     url: http://www.cs.berkeley.edu/~rachit/
-  - name: Christos Kozanitis
-    url: http://cseweb.ucsd.edu/~ckozanit/
-  - name: Jiannan Wang
-    url: http://www.cs.berkeley.edu/~jnwang/
   - name: Zhao Zhang
     url: http://www.eecs.berkeley.edu/~zhaozhang/
     dblp: _ # returns too many unrelated results
@@ -54,6 +50,8 @@
   - name: Yifan Wu
     url: http://yifanwu.net/
     dblp: _
+  - name: Xin Wang
+    dblp: _
 - description: recent alumni
   people:
   - name: Peter Alvaro
@@ -78,3 +76,7 @@
     url: https://www.cs.hmc.edu/~beth//
   - name: Reynold Xin
     url: http://www.cs.berkeley.edu/~rxin/
+  - name: Christos Kozanitis
+    url: http://cseweb.ucsd.edu/~ckozanit/
+  - name: Jiannan Wang
+    url: http://www.cs.berkeley.edu/~jnwang/

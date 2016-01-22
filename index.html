@@ -23,7 +23,7 @@ computing and interaction, and technology for developing regions.</div>
 <ul class="triplelist">
 {% assign sortedpeople = group.people | sort_names: 'name' %}
 {% for person in sortedpeople %}
-<li><a href="{{ person.url }}">{{ person.name }}</a></li>
+<li>{% if person.url %}<a href="{{ person.url }}">{% endif %}{{ person.name }}{% if person.url %}</a>{% endif %}</li>
 {% endfor %}
 </ul>
 {% endfor %}
