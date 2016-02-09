@@ -13,6 +13,8 @@
     dblp: joseph_e_gonzalez
   - name: Ali Ghodsi
     url: http://www.cs.berkeley.edu/~alig/
+  - name: Eric Brewer
+    url: https://www.cs.berkeley.edu/~brewer/
 - description: collaborators and postdocs
   people:
   - name: Rachit Agarwal
