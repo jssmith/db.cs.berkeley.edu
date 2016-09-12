@@ -58,13 +58,6 @@
     dblp: _
   - name: Xin Wang
     dblp: _
-  - name: Erik Krogen
-    url: https://www.linkedin.com/in/erik-krogen-42814250
-    dblp: _
-- description: research staff
-  people:
-  - name: Tomer Kaftan
-    url: https://amplab.cs.berkeley.edu/author/tomerk11/
   - name: Vikram Sreekanti
     url: http://www.vikrams.io/
 - description: recent alumni
@@ -95,3 +88,8 @@
     url: http://cseweb.ucsd.edu/~ckozanit/
   - name: Jiannan Wang
     url: http://www.cs.berkeley.edu/~jnwang/
+  - name: Erik Krogen
+    url: https://www.linkedin.com/in/erik-krogen-42814250
+    dblp: _
+  - name: Tomer Kaftan
+    url: https://www.linkedin.com/in/tomerkaftan
