@@ -50,7 +50,12 @@ img.grouplogo {
     width: 500px;
 }
 
+#logobox a {
+    float: left;
+}
+
 #copyright {
+    clear: both;
     text-align: center;
     color: #808080;
     padding-top: 10px;
