@@ -28,8 +28,15 @@ computing and interaction, and technology for developing regions.</div>
 </ul>
 {% endfor %}
 
-{% capture dblp_authors %}{% for group in site.data.people %}{% for person in group.people %}author:{% if person.dblp %}{{ person.dblp }}{% else %}{{ person.name | replace:' ','_' | replace:'-','_') | downcase }}{% endif %}|{% endfor %}{% endfor %}{% endcapture %}
-<h2 style="margin-top:0.5em; margin-bottom:.5em;"><a style="float: left;" href="http://dblp.org/search/index.php#query={{ dblp_authors }}">PUBLICATIONS <span class="boldtext">on
+<!--
+Note that this code is placed on a single line in order to avoid Jekyll from
+inserting a lot of unwanted whitespace into dblp_authors. Googling around, it
+seems like there isn't a nice alternative to this.
+-->
+{% capture dblp_authors %}
+{% for group in site.data.people %}{% for person in group.people %}author:{% if person.dblp %}{{ person.dblp }}{% else %}{{ person.name | replace:' ','_' }}{% endif %}:|{% endfor %}{% endfor %}
+{% endcapture %}
+<h2 style="margin-top:0.5em; margin-bottom:.5em;"><a style="float: left;" href="http://dblp.org/search/publ?q={{ dblp_authors }}">PUBLICATIONS <span class="boldtext">on
       DBLP</span></a> <a style="float:right;" href="seminar"><span class="boldtext">RECENT</span> GROUP READINGS</a></h2><br>
 
 <div id="logobox">
