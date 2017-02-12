@@ -2,25 +2,27 @@
   people:
   - name: Mike Franklin
     url: http://www.cs.berkeley.edu/~franklin/
-    dblp: michael_j_franklin
+    dblp: Michael_J._Franklin
   - name: Joe Hellerstein
     url: http://db.cs.berkeley.edu/jmh/
-    dblp: joseph_m_hellerstein
+    dblp: Joseph_M._Hellerstein
   - name: Ion Stoica
     url: http://www.cs.berkeley.edu/~istoica/
   - name: Joseph Gonzalez
     url: http://www.cs.berkeley.edu/~jegonzal/
-    dblp: joseph_e_gonzalez
   - name: Ali Ghodsi
     url: http://www.cs.berkeley.edu/~alig/
   - name: Eric Brewer
     url: https://www.cs.berkeley.edu/~brewer/
+    dblp: Eric_A._Brewer
   - name: Raluca Ada Popa
     url: http://www.eecs.berkeley.edu/~raluca/
+    dblp: Raluca_A._Popa
 - description: collaborators and postdocs
   people:
   - name: Rachit Agarwal
     url: http://www.cs.berkeley.edu/~rachit/
+    dblp: Rachit_Agarwal_0001
   - name: Zhao Zhang
     url: http://www.eecs.berkeley.edu/~zhaozhang/
     dblp: _ # returns too many unrelated results
@@ -44,6 +46,7 @@
     url: https://github.com/nicklan
   - name: Evan Sparks
     url: http://etrain.github.io/about.html
+    dblp: Evan_R._Sparks
   - name: Liwen Sun
     url: http://scholar.google.com/citations?user=Phf6aX0AAAAJ&hl=en
   - name: Shivaram Venkataraman
@@ -52,12 +55,12 @@
     url: https://johann.schleier-smith.com/
   - name: Chenggang Wu
     url: https://cs.brown.edu/~cw75/
-    dblp: _
+    dblp: _ # Chenggang_Wu is a different Chenggang Wu
   - name: Yifan Wu
     url: http://yifanwu.net/
-    dblp: _
+    dblp: _ # Yifan_Wu is a different Yifan Wu
   - name: Xin Wang
-    dblp: _
+    dblp: _ # No author entry for Xin Wang
   - name: Vikram Sreekanti
     url: http://www.vikrams.io/
   - name: Michael Whittaker
@@ -84,6 +87,7 @@
     url: https://www.linkedin.com/in/jshrsn
   - name: Ameet Talkwalkar
     url: http://web.cs.ucla.edu/~ameet/
+    dblp: _ # No author entry for Ameet Talkwalkar
   - name: Beth Trushkowsky
     url: https://www.cs.hmc.edu/~beth//
   - name: Reynold Xin
@@ -94,6 +98,6 @@
     url: http://www.cs.berkeley.edu/~jnwang/
   - name: Erik Krogen
     url: https://www.linkedin.com/in/erik-krogen-42814250
-    dblp: _
+    dblp: Erik_T._Krogen
   - name: Tomer Kaftan
     url: https://www.linkedin.com/in/tomerkaftan
